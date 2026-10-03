@@ -1,0 +1,20 @@
+[project]
+name = "fastapi-lesson"
+version = "0.1.0"
+description = "FastAPI Docker lesson"
+authors = [
+    { name = "Training" }
+]
+requires-python = ">=3.14,<4.0"
+
+dependencies = [
+    "fastapi",
+    "uvicorn"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
